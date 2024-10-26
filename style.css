@@ -1,0 +1,395 @@
+@font-face {
+    font-family: "Archangelsk";
+    src: url(./fonts/ofont.ru_Archangelsk.ttf);
+}
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{ 
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+}
+
+h2{
+font-family: "Archangelsk";
+font-size: 62px;
+}
+
+p{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.nav-block{
+}
+
+.social-btn{
+    margin-right: 40px;
+}
+
+.social-btn:last-child{
+    margin: 0;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+     
+    background: url('./img/intro-1.jpg') center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: background 1s ease-out ;
+}
+    
+
+.rectangle{
+    height: 369px;
+    width: 624px;
+    background-color: #F8F200;  
+
+    clip-path: polygon(
+        53px 0%, 
+        100% 0%,
+        100% calc(100% - 53px),
+        calc(100% - 53px) 100%,
+        0% 100%,
+        0% 53px
+    );
+    margin-left: auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+.rectangle_info{
+    padding: 79px 70px 0 70px;
+}
+
+.btn{
+    background-color: #000;
+    color:#F8F200;
+    width: 272px;
+    height: 78px;
+    border: 0;
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #5a5959;
+    cursor: pointer;
+}
+
+.welcome-block{
+    margin-top: 80px;
+}
+
+.welcome-img{
+    clip-path: polygon(
+        53px 0%, 
+        100% 0%,
+        100% calc(100% - 53px),
+        calc(100% - 53px) 100%,
+        0% 100%,
+        0% 53px
+    );
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-img__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-text{
+    line-height: 34px;
+    width: 952px;
+    margin-bottom: 60px;
+}
+
+.footer-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer-black{
+    display: flex;
+    margin: 0 auto;
+    background-color: #000;
+    color: #ffffff;
+    height: 40px;
+    align-items: center;
+}
+
+.form{
+    background-color: #000;
+    margin-top: 80px;
+    padding-top: 45px;
+}
+
+.sale-title{
+    color: #ffffff;
+}
+
+.sale-title__block{
+    display: flex;
+    align-items: center;
+}
+
+.form-and-img{
+    display: flex;
+}
+
+.form-block{
+    width: 460px;
+}
+
+.text-input{
+    width: 100%;
+    height: 35px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px #777777 solid;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.text-input:active,:hover,:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+
+.input-file{
+    width: 100%;
+    height: 120px;
+    border: 1px #777777 dashed;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file{
+    display: none;
+}
+
+.file-text{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.file-title{
+    margin-top: 40px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.send{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    width: 192px;
+    height: 59px;
+    margin: 35px 0 10px 0;
+    border: 0;
+    background-color: #F8F200;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-text{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.hp-block{
+    height: 746px;
+    background-color: #F8F200;
+}
+
+.hp-infoblock{
+    margin-right: 20px;
+    width: 624px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 42px 0 42px;
+}
+
+.hp-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px; 
+}
+
+.props{
+    display: flex;
+}
+
+.props-img{
+    margin-right: 10px;
+}
+
+.hp-infotext{
+    line-height: 34px;
+}
+
+.hp-button{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    width: 192px;
+    height: 59px;
+    border: 0;
+    background-color: #000000;
+    margin-top: 20px;
+    color: #F8F200;
+}
+
+.buy-game{
+    background-color: #000;
+}
+.buy-title{
+    color: #ffffff;
+    width: 624px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.buy-block{
+    display: flex;
+    max-width: 1920px;
+    left: 0;
+}
+
+.props-game{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+}
+
+.props-game-img{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.buy-text{
+    padding: 40px 30px;
+}
+
+h6{
+    color: #52BEDC;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto";
+     margin-top: 30px;
+}
+
+.platforms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 300px;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.platforms img{
+     height: auto;
+}
+
+.props-game-text{
+    margin: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .header-container{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .nav-block{
+        flex-direction: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .social-btn{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .intro{
+        justify-content: right;
+    }
+    
+.rectangle{
+    height: auto;
+    width: 80%;
+    min-width: 80%;
+    margin: 0;
+}
+
+.rectangle_info{
+    padding: 40px 30px;
+}
+}
